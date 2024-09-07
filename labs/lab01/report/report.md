@@ -115,11 +115,11 @@ header-includes:
 
 Заходим в KDUMP и отключаем его: Cм. [рис. 10](#fig:010)
 
-![Отключение KDUMP](10.jpg){ #fig:010 width=70% }
+![Отключение KDUMP](10.png){ #fig:010 width=70% }
 
 Заходим в Network&Host Name и прописываем host name: Cм. [рис. 11](#fig:011)
 
-![Имя хоста](11.jpg){ #fig:011 width=70% }
+![Имя хоста](11.png){ #fig:011 width=70% }
 
 В разделе Root Password задаём пароль: Cм. [рис. 12](#fig:012)
 
