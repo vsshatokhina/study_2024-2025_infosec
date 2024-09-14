@@ -87,47 +87,47 @@ header-includes:
 1. В установленной при выполнении предыдущей лабораторной работы операционной системе создайте учётную запись пользователя guest (использую учётную запись администратора):
 useradd guest
 
-![(рис. 1. useradd guest)](image/image1.PNG){ #fig:001 width=70% height=70% }
+![(рис. 1. useradd guest)](image/image1.png){ #fig:001 width=70% height=70% }
 
 2. Задайте пароль для пользователя guest (использую учётную запись администратора):
 passwd guest
 
-![(рис. 2. passwd guest)](image/image2.PNG){ #fig:002 width=70% height=70% }
+![(рис. 2. passwd guest)](image/image2.png){ #fig:002 width=70% height=70% }
 
 3. Войдите в систему от имени пользователя guest.
 
-![(рис. 3. log out)](image/image3.PNG){ #fig:003 width=70% height=70% }
+![(рис. 3. log out)](image/image3.png){ #fig:003 width=70% height=70% }
 
-![(рис. 4. log in)](image/image4.PNG){ #fig:004 width=70% height=70% }
+![(рис. 4. log in)](image/image4.png){ #fig:004 width=70% height=70% }
 
-![(рис. 5. guest)](image/image5.PNG){ #fig:005 width=70% height=70% }
+![(рис. 5. guest)](image/image5.png){ #fig:005 width=70% height=70% }
 
 4. Определите директорию, в которой вы находитесь, командой pwd. Сравните её с приглашением командной строки. Определите, является ли она вашей домашней директорией? Если нет, зайдите в домашнюю директорию.
 
-![(рис. 6. pwd)](image/image6.PNG){ #fig:006 width=70% height=70% }
+![(рис. 6. pwd)](image/image6.png){ #fig:006 width=70% height=70% }
 
 5. Уточните имя вашего пользователя командой whoami.
 
-![(рис. 7. whoami)](image/image7.PNG){ #fig:007 width=70% height=70% }
+![(рис. 7. whoami)](image/image7.png){ #fig:007 width=70% height=70% }
 
 6. Уточните имя вашего пользователя, его группу, а также группы, куда входит пользователь, командой id. Выведенные значения uid, gid и др. запомните. Сравните вывод id с выводом команды groups.
 
-![(рис. 8. id и groups)](image/image8.PNG){ #fig:008 width=70% height=70% }
+![(рис. 8. id и groups)](image/image8.png){ #fig:008 width=70% height=70% }
 
 7. Сравните полученную информацию об имени пользователя с данными, выводимыми в приглашении командной строки.
 
-![(рис. 9. Совпадение)](image/image9.PNG){ #fig:009 width=70% height=70% }
+![(рис. 9. Совпадение)](image/image9.png){ #fig:009 width=70% height=70% }
 
 8. Просмотрите файл /etc/passwd командой cat /etc/passwd
 Найдите в нём свою учётную запись. Определите uid пользователя. Определите gid пользователя. Сравните найденные значения с полученными в предыдущих пунктах.
 
-![(рис. 10. cat /etc/passwd)](image/image10.PNG){ #fig:010 width=70% height=70% }
+![(рис. 10. cat /etc/passwd)](image/image10.png){ #fig:010 width=70% height=70% }
 
 9. Определите существующие в системе директории командой
 ls -l /home/
 Удалось ли вам получить список поддиректорий директории /home? Какие права установлены на директориях?
 
-![(рис. 11. ls -l /home/)](image/image11.PNG){ #fig:011 width=70% height=70% }
+![(рис. 11. ls -l /home/)](image/image11.png){ #fig:011 width=70% height=70% }
 
 10. Проверьте, какие расширенные атрибуты установлены на поддиректориях, находящихся в директории /home, командой:
 lsattr /home
@@ -135,20 +135,20 @@ lsattr /home
 Удалось ли вам увидеть расширенные атрибуты директорий других
 пользователей?
 
-![(рис. 12. lsattr /home)](image/image12.PNG){ #fig:012 width=70% height=70% }
+![(рис. 12. lsattr /home)](image/image12.png){ #fig:012 width=70% height=70% }
 
 11. Создайте в домашней директории поддиректорию dir1 командой
 mkdir dir1
 Определите командами ls -l и lsattr, какие права доступа и расширенные атрибуты были выставлены на директорию dir1.
 
-![(рис. 13. mkdir dir1)](image/image13.PNG){ #fig:013 width=70% height=70% }
+![(рис. 13. mkdir dir1)](image/image13.png){ #fig:013 width=70% height=70% }
 
 12. Снимите с директории dir1 все атрибуты командой
 chmod 000 dir1
 и проверьте с её помощью правильность выполнения команды
 ls -l
 
-![(рис. 14. chmod 000 dir1)](image/image14.PNG){ #fig:014 width=70% height=70% }
+![(рис. 14. chmod 000 dir1)](image/image14.png){ #fig:014 width=70% height=70% }
 
 13. Попытайтесь создать в директории dir1 файл file1 командой
 echo "test" > /home/guest/dir1/file1
@@ -157,7 +157,7 @@ echo "test" > /home/guest/dir1/file1
 ls -l /home/guest/dir1
 действительно ли файл file1 не находится внутри директории dir1.
 
-![(рис. 15. "test" > /home/guest/dir1/file1)](image/image15.PNG){ #fig:015 width=70% height=70% }
+![(рис. 15. "test" > /home/guest/dir1/file1)](image/image15.png){ #fig:015 width=70% height=70% }
 
 ## Заполнение таблицы 2.1
 
