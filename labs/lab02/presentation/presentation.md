@@ -60,57 +60,57 @@ header-includes:
 
 ## 1. Cоздайте учётную запись пользователя guest 
 
-![(рис. 1. useradd guest)](image/image1.PNG){ #fig:001 width=70% height=70% }
+![(рис. 1. useradd guest)](image/image1.png){ #fig:001 width=70% height=70% }
 
 ## 2. Задайте пароль для пользователя guest
 
-![(рис. 2. passwd guest)](image/image2.PNG){ #fig:002 width=70% height=70% }
+![(рис. 2. passwd guest)](image/image2.png){ #fig:002 width=70% height=70% }
 
 ## 3. Войдите в систему от имени пользователя guest
 
-![(рис. 3. log out)](image/image3.PNG){ #fig:003 width=30% height=30% }
+![(рис. 3. log out)](image/image3.png){ #fig:003 width=30% height=30% }
 
-![(рис. 4. log in)](image/image4.PNG){ #fig:004 width=30% height=30% }
+![(рис. 4. log in)](image/image4.png){ #fig:004 width=30% height=30% }
 
 ## 4. Определите директорию, в которой вы находитесь
 
-![(рис. 6. pwd)](image/image6.PNG){ #fig:006 width=70% height=70% }
+![(рис. 6. pwd)](image/image6.png){ #fig:006 width=70% height=70% }
 
 ## 5. Уточните имя вашего пользователя командой
 
-![(рис. 7. whoami)](image/image7.PNG){ #fig:007 width=70% height=70% }
+![(рис. 7. whoami)](image/image7.png){ #fig:007 width=70% height=70% }
 
 ## 6. Уточните имя вашего пользователя, его группу, а также группы, куда входит пользователь
 
-![(рис. 8. id и groups)](image/image8.PNG){ #fig:008 width=70% height=70% }
+![(рис. 8. id и groups)](image/image8.png){ #fig:008 width=70% height=70% }
 
 ## 7. Сравните полученную информацию об имени пользователя с данными, выводимыми в приглашении командной строки
 
-![(рис. 9. Совпадение)](image/image9.PNG){ #fig:009 width=70% height=70% }
+![(рис. 9. Совпадение)](image/image9.png){ #fig:009 width=70% height=70% }
 
 ## 8. Просмотрите файл /etc/passwd. Найдите в нём свою учётную запись.
 
-![(рис. 10. cat /etc/passwd)](image/image10.PNG){ #fig:010 width=70% height=70% }
+![(рис. 10. cat /etc/passwd)](image/image10.png){ #fig:010 width=70% height=70% }
 
 ## 9. Определите существующие в системе директории. Удалось ли вам получить список поддиректорий директории /home? Какие права установлены на них?
 
-![(рис. 11. ls -l /home/)](image/image11.PNG){ #fig:011 width=70% height=70% }
+![(рис. 11. ls -l /home/)](image/image11.png){ #fig:011 width=70% height=70% }
 
 ## 10. Проверьте, какие расширенные атрибуты установлены на поддиректориях. Удалось ли вам увидеть расширенные атрибуты директории, директорий других пользователей?
 
-![(рис. 12. lsattr /home)](image/image12.PNG){ #fig:012 width=70% height=70% }
+![(рис. 12. lsattr /home)](image/image12.png){ #fig:012 width=70% height=70% }
 
 ## 11. Создайте в домашней директории поддиректорию dir1 командой. Определите, какие права доступа и расширенные атрибуты были выставлены на директорию dir1
 
-![(рис. 13. mkdir dir1)](image/image13.PNG){ #fig:013 width=70% height=70% }
+![(рис. 13. mkdir dir1)](image/image13.png){ #fig:013 width=70% height=70% }
 
 ## 12. Снимите с директории dir1 все атрибуты и проверьте с её помощью правильность выполнения команды ls -l
 
-![(рис. 14. chmod 000 dir1)](image/image14.PNG){ #fig:014 width=70% height=70% }
+![(рис. 14. chmod 000 dir1)](image/image14.png){ #fig:014 width=70% height=70% }
 
 ## 13. Попытайтесь создать в директории dir1 файл file1.Почему вы получили отказ? Проверьте, действительно ли файл не находится внутри директории
 
-![(рис. 15. "test" > /home/guest/dir1/file1)](image/image15.PNG){ #fig:015 width=70% height=70% }
+![(рис. 15. "test" > /home/guest/dir1/file1)](image/image15.png){ #fig:015 width=70% height=70% }
 
 ## 14. Заполните таблицу «Установленные права и разрешённые действия» (см. табл. 2.1)
 
